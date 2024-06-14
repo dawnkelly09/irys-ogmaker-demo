@@ -2,7 +2,7 @@ import Irys from "@irys/sdk";
 
 const getIrys = async () => {
 	const network = "mainnet";
-	const token = "ethereum";
+	const token = "base-eth";
  
 	const irys = new Irys({
 		network, // "mainnet" or "devnet"
