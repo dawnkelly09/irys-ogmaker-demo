@@ -100,6 +100,21 @@ a {
   text-decoration: none;
 }
 
+label {
+  margin-right: 6px;
+}
+
+input {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+textarea {
+  border-radius: 12px;
+  padding: 8px;
+  resize: none;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
