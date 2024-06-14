@@ -1,10 +1,15 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 6rem;
   min-height: 100vh;
+}
+
+.heading {
+  margin-bottom: 20px;
 }
 
 .description {

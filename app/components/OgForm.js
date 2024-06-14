@@ -43,8 +43,6 @@ function OgForm({ onSubmit }) {
 
     return (
         <form className={styles.form} onSubmit={handleSubmit}>
-            <h1>Open Graph Object Maker</h1>
-            <h2>Use this form to create Open Graph ready html files</h2>
             <div>
                 <label htmlFor="title">Title: </label>
                 <input
